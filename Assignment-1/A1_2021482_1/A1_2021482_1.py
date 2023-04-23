@@ -25,8 +25,8 @@ elif(e==2):
         print("Wrong Input")
 #
 elif(e==3):
-    c=int(input("Enter the value: "))
-    if (c%2) == 0:
+    if (e%2) == 0:
+        c=int(input("Enter the value: "))
         n = c *2
         for i in range(1,n-1,2):
             for k in range(n-i+1,1,-2):
@@ -57,10 +57,9 @@ elif(e==4):
 
 #
 elif(e==5):
-    c=int(input("Enter the value: "))
-    if (c%2) == 0:
-        
-        n = c*2
+    if (e%2) == 0:
+        c=int(input("Enter the value: "))
+        n = c *2
         for l in range(1,n,2):
             for m in range(1,l+1,2):
                 print("",end=" ")
